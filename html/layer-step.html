@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>레이아웃</title>
+<link rel="stylesheet" href="/assets/css/icare.css" type="text/css" />
+<link rel="stylesheet" href="/assets/css/font.css" type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/ui-common.js"></script>
+</head>
+<body>
+<div id="layer-wrap" style="width:1200px;"><!-- 너비지정 -->
+    <div class="layer-header"><h1>서비스 신청</h1></div>
+    <ul class="pt-step">
+        <!-- 
+            해당 화면 클래스 'on'
+            지난 화면 클래스 'step'
+        -->
+        <li class="step">01. 시설 정보 입력</li>
+        <li class="step">02. 리더기 태그 주문수량 입력</li>
+        <li class="on">03. 서비스 요금제 선택</li>
+        <li class="">04. 계약서 작성</li>
+        <li class="">05. 서비스 신청완료</li>
+    </ul>
+    
+	<div class="layer-content">
+		<div class="layer-btn">
+			<button class="_bt-red">확인</button>
+			<button class="_bt-white">취소</button>
+		</div>
+	</div>
+	<div class="layer-footer">
+		<button class="close"><div class="img-com __del01"><span>닫기</span></div></button>
+	</div>
+</div>
+</body>
+</html>

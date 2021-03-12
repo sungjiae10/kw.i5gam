@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>회원가입</title>
+<link rel="stylesheet" href="/assets/css/icare.css" type="text/css" />
+<link rel="stylesheet" href="/assets/css/font.css" type="text/css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/ui-common.js"></script>
+</head>
+<body class="int-join-bg">
+<div class="int-join-ms-wrap">
+	<div class="int-join-top"><a href="#"><img src="/assets/img/common/kw-logo.png" alt="아이오감 서울시 우리동네키움포털 출결시스템" /></a></div>
+	<section class="int-join-ms join-stage">
+		<div class="join-stage-top">
+			<h1>회원가입</h1>
+			<ul class="join-location">
+				<li class="step">STEP1</li>
+				<li class="step on">STEP2</li>
+				<li>STEP3</li>
+			</ul>
+			<div class="entry-txt"><span class="pc02">기본 정보를 모두 입력</span> 하면 가입이 완료됩니다.</div>
+		</div>
+		<div class="join-stage-con">
+			<div class="join-stage-input">
+				<input type="text" placeholder="성명" title="성명" />
+			</div>
+			<div class="join-stage-input">
+				<input type="text" placeholder="아이디" title="아이디" />
+				<button class="act">중복확인</button>
+			</div>
+			<div class="join-stage-bottom">
+				<div class="info1">영문,숫자 조합으로 6~12자 이내</div>
+			</div>
+			<div class="join-stage-input">
+				<input type="password" placeholder="비밀번호" title="비밀번호" />
+			</div>
+			<div class="join-stage-input">
+				<input type="password" placeholder="비밀번호 확인" title="비밀번호 확인" />
+			</div>
+			<div class="join-stage-bottom">
+				<div class="info1">8-15자리의 영문/숫자/특수문자를 함께 입력해주세요.</div>
+			</div>
+			<div class="join-stage-input">
+				<div class="join-stage-box">
+					<select>
+						<option>010</option>
+					</select>
+					<input type="text" class="mgr10" /> - 
+					<input type="text" class="mgl10" />
+				</div>
+				<button class="deagi">인증</button><!-- 휴대폰 입력 전 "deagi" 입력 후 "act"  -->
+				<!--<button class="act">재인증</button>-->
+			</div>
+			<div class="join-stage-input">
+				<input type="text" placeholder="인증번호 입력(3분 이내)" title="인증번호" style="background:#f8f8f8;" />
+				<button class="act">확인</button>
+			</div>
+			<div class="join-stage-input mgt20">
+				<input type="text" placeholder="이메일" title="이메일" />
+			</div>
+			<div class="join-stage-bottom">
+				<input type="checkbox" id="chk01" name="">
+				<label for="chk01"><span class="box"></span><span class="label-txt">세금계산서를 발행할 경우, 상기 이메일로 수신하겠습니다.</span></label>
+			</div>
+		</div>
+		<div class="btn-wrap __btn-join">
+			<button class="white">이전</button>
+			<button class="red">가입하기</button>
+		</div>
+	</section>
+</div>
+</body>
+</html>
